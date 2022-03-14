@@ -1,0 +1,19 @@
+h1{
+    color:blue;
+    background-color: bisque;
+    text-align: center;
+}
+.menu{
+    background-color: rosybrown;
+    text-align: center;
+}
+li{
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+    display: inline-block;
+    text-decoration: aquamarine;
+}
+a{
+    text-decoration: none;
+}
