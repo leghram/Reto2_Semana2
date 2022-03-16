@@ -1,19 +1,64 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 h1{
-    color:blue;
-    background-color: bisque;
+    color:#1A296D;
     text-align: center;
 }
 .menu{
-    background-color: rosybrown;
+    background-color: whitesmoke;
     text-align: center;
 }
 li{
     padding: 10px;
     margin: 10px;
-    background-color: aqua;
     display: inline-block;
-    text-decoration: aquamarine;
 }
 a{
     text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+section{
+    text-align: center;
+    
+}
+.espacioFormulario{
+    height: 800px;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+}
+.boton1{
+    background-color: #12A635;
+    width: 70px;
+    color: aliceblue;
+    border-color: aliceblue;
+}
+
+.form2{
+    width: 250px;
+    margin: auto;
+    text-align: left;
+    background-color: #F1EFF4;
+    padding: 20px;
+}
+
+.boton2{
+    background-color: #2165CA;
+    color: aliceblue;
+    border-color: aliceblue;
+}
+
+.Minfo{
+    height: 50px;
+}
+
+footer{
+    text-align: center;
+}
+
+
+

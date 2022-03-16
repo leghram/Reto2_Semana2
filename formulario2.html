@@ -14,46 +14,63 @@
             <ul>
                 <li><a href="formulario1.html">FORMULARIO 1</a></li>
                 <li><a href="formulario2.html">FORMULARIO 2</a></li>
-                <li><a href="formulario3.html">FORMULARIO 3</a></li>
             </ul>
         </nav>
         <section>
             <h2>Opcion 2</h2>
-            <form>
-                <label>Sign Up</label>
-                <br>
-                <label for="FN">First Name</label>
-                <br>
-                <input type="text" id="FN">
-                <br>
-                <label for="age">Age</label>
-                <br>
-                <input type="number" id="age">
-                <br>
-                <label for="income">Income</label>
-                <br>
-                <input type="number" id="income">
-                <br>
-                <label for="Minfo">More Info</label>
-                <br>
-                <input type="text" id="Minfo">
-                <br>
-                <label>GENDER</label>
-                <br>
-                <input type="radio" name="gen" id="male"><label for="male">Male</label>
-                <br>
-                <input type="radio" name="gen" id="female"><label for="female">Female</label>
-                <br>
-                <input type="radio" name="gen" id="Trans"><label for="Trans">Trans</label>
-                <br>
-                <label>PLAN</label>
-                <br>
-                <label>COMPLETAR EL SELECT AQUI</label>
-                <br>
-                <label>Completa Mas Por AQUI</label>
-                <br>
-                <input type="button" value="Update">
-            </form>
+            <div class="espacioFormulario">
+                <div class="Fm2">
+                <form class="form2">
+                    <label>Sign Up</label>
+                    <br>
+                    <br>
+
+                    <label for="FN">First Name</label>
+                    <br>
+                    <input type="text" id="FN" required pattern="[A-Za-z]{6,}">
+                    
+                    <br>
+
+                    <label for="age" class="age">Age</label>
+                    <br>
+                    <input type="number" id="age" required max="150">
+
+                    <br>
+
+                    <label for="income">Income</label>
+                    <br>
+                    <input type="number" id="income" required max="120">
+
+                    <br>
+
+                    <label for="Minfo">More Info</label>
+                    <br>
+                    <input type="text" id="Minfo" required pattern="[A-Za-z]{6,}" class="Minfo">
+                    <br>
+                    <br>
+                    <label>Gender</label>
+                    <br>
+                    <input type="radio" name="gen" id="male"><label for="male">Male</label>
+                    <input type="radio" name="gen" id="female"><label for="female">Female</label>
+                    <input type="radio" name="gen" id="Trans"><label for="Trans">Trans</label>
+                    <br>
+                    <br>
+                    <label>Plan</label>
+                    <br>
+                    <select name="opciones">
+                        <option value="priOpcion" selected disabled>Select Plan</option>
+                        <option value="segOpcion">Plan Free</option>
+                        <option value="terOpcion">Plan Trial</option>
+                        <option value="cuaOpcion">Plan Business</option>
+                    </select>
+                    <br>
+                    <br>
+                    <input type="checkbox" id="ch"><label for="ch">Subscribe to Newsletter</label>
+                    <br>
+                    <input class="boton2" type="submit" value="Update">
+                </form>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
